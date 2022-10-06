@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Righteous', cursive;
+  color: #fff;
+}
+
+p:first-child {
+  font-size: 60px;
+}
+
+.fakelk{
+  display: flex;
+  align-items: flex-end;
+  font-size: 80px;
+  justify-content:space-between;
+
+}
+
+a:hover {
+  font-size: 300px;
+}
+
+p::after{
+  content: "RRRRRRAAANDOM";
+  color: red;
+}
